@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, Button, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
 export default function App() {
     return(
@@ -15,18 +15,18 @@ export default function App() {
 const styles = StyleSheet.create({
   texto: {
     fontSize: 30, 
-    color: "#63208C",
+    color: "#000000",
   },
 
   container: {
     flex: 1,
     justifyContent: "Center",
     alignItems: "Center",
-    backgroundColor: "#000000",
+    backgroundColor: "#864DC4",
   },
 
   input: {
-    backgroundColor: "#A752D1",
+    backgroundColor: "#EFD5F7",
     textAlign: "Center",
     width: "60%",
     height: "5%",
@@ -40,8 +40,15 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: "#F9F2FF",
-    width: "15%",
+    borderWidth: 1,
+    borderColor: "#9662B5",
+    width: "40%",
+    paddingVertical: 9,
+    alignItems: "center",
+    backgroundColor: "#53158C",
+    borderRadius: 20,
+    shadowRadius: 25,
+    shadowColor: "#8453AD",
 
   },
 
